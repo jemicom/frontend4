@@ -32,3 +32,6 @@ openAPI : 백엔드 데이터를 가져와서 처리함
 
 # 사용한 링크
 animate 라이브러리 : https://animate.style/  
+
+# git clone
+git clone https://github.com/jemicom/frontend4.git
