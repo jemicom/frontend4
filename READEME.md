@@ -34,13 +34,24 @@ openAPI : 백엔드 데이터를 가져와서 처리함
 animate 라이브러리 : https://animate.style/  
  
 # git clone
+```
 작업환경이 바뀌고 새로 복사해서 작업하고 싶을때 
 로컬 저장소의 내용이 원격 저장소의 내용과 일치해진다.
 git clone https://github.com/jemicom/frontend4.git
 git config --global user.name "홍길동"
 git config --global user.email "email"
+git add .
+git commit -u origin master
 git push
+```
 
 # git pull
-원격 저장소의 내용을 가져와서 현재 브랜치와 병합(merge)까지 해주기 때문에, 기존에 작업했던 내용은 유지하면서 최신 코드로 업데이트할 수 있는 것이다.
+```
+원격 저장소의 내용을 가져와서 현재 브랜치와 병합(merge)까지 해주기 때문에, 
+기존에 작업했던 내용은 유지하면서 최신 코드로 업데이트할 수 있는 것이다.
 git pull origin master
+
+git add .
+git commit -u origin master
+git push
+```
